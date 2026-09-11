@@ -4,7 +4,7 @@ public class CompteBancaireMain {
 
     public static void main(String[] args) {
 
-        CarteBancaire compte = new CarteBancaire("Alice", 100);
+        CarteBancaire compte = new CarteBancaire("Christie", 100);
 
         System.out.println("Titulaire : " + compte.getTitulaire());
         System.out.println("Solde : " + compte.getSolde());
