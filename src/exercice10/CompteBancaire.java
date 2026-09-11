@@ -4,20 +4,16 @@ public class CompteBancaire {
     //attributs
     private String titulaire;
     private double solde;
-
     public CompteBancaire(String titulaire, double solde) {
         this.titulaire = titulaire;
         this.solde = solde;
     }
-
     public double getSolde() {
         return solde;
     }
-
     public String getTitulaire() {
         return titulaire;
     }
-
     // Peut lever une exception checked
     public void retirer(double montant) throws SoldeInsuffisantException {
 
@@ -34,7 +30,6 @@ public class CompteBancaire {
                     manque
             );
         }
-
         solde -= montant;
         System.out.println("Retrait effectué : " + montant + " €");
     }
