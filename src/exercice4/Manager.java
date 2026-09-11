@@ -1,0 +1,16 @@
+package exercice4;
+
+public class Manager extends Employe {
+
+    private double prime;
+
+    public Manager(String nom, double salaireBase, double prime) {
+        super(nom, salaireBase);
+        this.prime = prime;
+    }
+
+    @Override
+    public double calculerSalaire() {
+        return getSalaireBase() + prime;
+    }
+}
