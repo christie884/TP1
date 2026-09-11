@@ -7,7 +7,6 @@ public class Main {
         Livre livre1 = new Livre("Le Petit Prince", "Antoine de Saint-Exupéry", 96);
         Livre livre2 = new Livre("1984", "George Orwell", 328);
 
-
         // Test de l'emprunt
         livre1.emprunter();
 
